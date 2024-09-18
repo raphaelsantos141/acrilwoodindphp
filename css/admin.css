@@ -1,0 +1,122 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #425365;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do título */
+h1 {
+    margin-top: 20px;
+    font-size: 24px;
+	color: #425365;
+}
+
+h2 {
+	margin: 0 0 20px 0;
+	color: #555;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 30px;
+}
+h3, h4 {
+	color: #023047;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Estilo das labels */
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+}
+
+/* Estilo das áreas de texto */
+textarea {
+    width: 100%;
+    max-width: 100%; /* Garante que a largura máxima seja 100% do contêiner pai */
+    max-height: 300px; /* Define a altura máxima para o textarea */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    resize: none; /* Permite redimensionar somente na altura */
+}
+
+textarea:focus {
+    border-color: #425365; /* Cor da borda quando em foco */
+    outline: none; /* Remove a borda de foco padrão do navegador */
+}
+
+/* Estilo dos botões de submit */
+input[type="submit"] {
+    background-color: #425365;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a343f;
+}
+
+/* Estilo do botão de logout */
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.logout-button-backsite {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button-backsite:hover {
+    background-color: #c82333;
+}
