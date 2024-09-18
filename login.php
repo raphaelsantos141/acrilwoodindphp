@@ -1,11 +1,3 @@
-<ul class="nav navbar-nav navbar-right">
-            <?php if (isset($_SESSION['logado']) && $_SESSION['logado']): ?>
-              <li><a href="logout.php" class="btn btn-default">Logout</a></li>
-            <?php else: ?>
-              <li><a href="login.php" class="btn btn-default" id="loginButton">Login</a></li>
-            <?php endif; ?>
-          </ul>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 

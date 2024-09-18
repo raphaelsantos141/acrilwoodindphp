@@ -62,7 +62,6 @@ $sobreNos = $query->fetch(PDO::FETCH_ASSOC)['conteudo'];
         <button type="submit" class="logout-button">Logout</button>
     </form>
 
-   <button class="botao-estilizado" onclick="window.location.href='index.php'">Ir para Exemplo</button>
 
 </body>
 
